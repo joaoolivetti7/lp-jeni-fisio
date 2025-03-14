@@ -43,7 +43,7 @@ function SectionFive() {
         animate={controlsImage}
         transition={{ duration: 1 }}
       >
-        <img src="/foto-fisio.png" alt="Foto Fisio" />
+        <img src="/foto-fisio-2.png" alt="Foto Fisio" />
       </motion.div>
     </div>
   );
