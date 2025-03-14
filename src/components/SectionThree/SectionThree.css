@@ -38,11 +38,11 @@
 .decoration-left{
     position: absolute;
     left: 0;
-    transform: translateY(100%);
+
 }
 
 .decoration-right{
     position: absolute;
     right: 0;
-    transform: translateY(200%);
+
 }

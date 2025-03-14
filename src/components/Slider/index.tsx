@@ -21,25 +21,25 @@ function onSlider() {
     <>
       <Slider {...settings}>
         <div className="slide">
-          <img src="/public/inc-urinaria.png" alt="" />
+          <img src="/inc-urinaria.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/dis-sexual.png" alt="" />
+          <img src="/dis-sexual.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/gestacao.png" alt="" />
+          <img src="/gestacao.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/pos-parto.png" alt="" />
+          <img src="/pos-parto.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/endometriose.png" alt="" />
+          <img src="/endometriose.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/ban-terapeutica.png" alt="" />
+          <img src="/ban-terapeutica.png" alt="" />
         </div>
         <div className="slide">
-          <img src="/public/aurico.png" alt="" />
+          <img src="/aurico.png" alt="" />
         </div>
       </Slider>
     </>

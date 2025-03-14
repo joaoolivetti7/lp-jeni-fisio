@@ -11,8 +11,10 @@
     "openmobile": "node ./node_modules/openmobile/ip.js"
   },
   "dependencies": {
+    "framer-motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-intersection-observer": "^9.16.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.5"

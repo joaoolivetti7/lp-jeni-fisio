@@ -5,6 +5,7 @@
   display: flex;
   padding-top: 1.5rem;
   position: relative;
+  height: 250px;
 }
 
 .container-text {
@@ -16,6 +17,8 @@
   padding-left: 1.5rem;
   position: absolute;
   z-index: 1; /* Adiciona um índice z para garantir que o texto fique sobre a imagem */
+  height: 200px;
+
 }
 
 .container-text h1 {
