@@ -1,0 +1,20 @@
+.container-section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 25px 0 0 0;
+}
+
+.container-section-two h1 {
+  font-size: 20px;
+  color: #ab7243;
+  margin-bottom: 2%;
+}
+
+.container-section-two p{
+  text-align: center;
+  font-size: 13px;
+  color: #A8A8A8;
+  width: 90%;
+}

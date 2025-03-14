@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+
+.button-wpp{
+    /* background-color: #7CA381; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.button-wpp p{
+    color: white;
+    background-color: #7CA381;
+    padding: 7px;
+    padding-left: 17px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.button-wpp img{
+    margin-right: -6%;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+}

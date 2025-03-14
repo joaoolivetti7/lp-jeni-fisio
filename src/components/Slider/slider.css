@@ -1,0 +1,85 @@
+.slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white; /* Adiciona um fundo branco para garantir visibilidade */
+  min-height: 200px; /* Adiciona uma altura mínima para garantir visibilidade */
+  box-sizing: border-box; /* Garante que o padding seja incluído na altura total */
+}
+
+.slick-list {
+  overflow: hidden; /* Garante que a lista do carrossel não cause overflow */
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button:before {
+  color: #ab7243;
+}
+
+.slide img	{
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto 20px;
+}
+
+.slide h3 {
+  font-size: 18px;
+  color: #ab7243;
+  text-transform: uppercase;
+}
+
+.slide p {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  width: 80%;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Cor do ícone da seta */
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px; /* Ajuste conforme necessário */
+}
+
+.slick-next {
+  right: 10px; /* Ajuste conforme necessário */
+}
+
+/* Estilos específicos para os ícones das setas */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: #c496c7; /* Cor do ícone da seta */
+}

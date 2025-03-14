@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+.container-section-one {
+  background-color: #fdd3ff;
+  display: flex;
+  padding-top: 1.5rem;
+  position: relative;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+  width: 75%;
+  padding-left: 1.5rem;
+  position: absolute;
+  z-index: 1; /* Adiciona um índice z para garantir que o texto fique sobre a imagem */
+}
+
+.container-text h1 {
+  color: #ab7243;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.text {
+  color: rgba(171, 114, 67, 0.6);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.container-image img {
+  width: auto;
+  height: 100%;
+}
