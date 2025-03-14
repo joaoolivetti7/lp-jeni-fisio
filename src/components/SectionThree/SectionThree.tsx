@@ -25,7 +25,7 @@ function SectionThree() {
           animate={controlsLeft}
           transition={{ duration: 1 }}
         >
-          <img src="/public/desenho-left.png" alt="" />
+          <img src="/desenho-left.png" alt="" />
         </motion.div>
         <motion.div
           className="decoration-right"
@@ -33,12 +33,12 @@ function SectionThree() {
           animate={controlsRight}
           transition={{ duration: 1 }}
         >
-          <img src="/public/desenho-right.png" alt="" />
+          <img src="/desenho-right.png" alt="" />
         </motion.div>
       </div>
       <h1>Passo a Passo da Sua Sessão</h1>
       <div className="container-steps">
-        <img src="/public/steps.png" alt="" />
+        <img src="/steps.png" alt="" />
       </div>
       <ButtonWpp texto="Agendar sua sessão!" />
     </div>
